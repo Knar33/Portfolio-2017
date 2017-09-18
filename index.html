@@ -1,0 +1,129 @@
+<!DOCTYPE hml>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Welcome to my portfolio!</title>
+</head>
+
+<body>
+
+    <div class="container-fluid splash">
+        <div class="row topnav">
+            <div class="col-xs-3 col-md-offset-8 col-md-1 navi">
+                <a href="#about" onclick="$('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top}, 500); return false;"><b>About</b></a>
+            </div>
+            <div class="col-xs-3 col-md-1 navi">
+                <a href="#work" onclick="$('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top}, 500); return false;"><b>Work</b></a>
+            </div>
+            <div class="col-xs-3 col-md-1 navi">
+                <a href="http://www.github.com/knar33/" target="blank"><img src="images/github-32px.png"></a>
+            </div>
+            <div class="col-xs-3 col-md-1 navi">
+                <a href="index.html"><img src="images/in-34px.png"></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 window col-m-offset-2 col-m-8 window">
+                <div class="huge">Hello, I'm Andrew</div>
+                <div class="notsohuge">Front-end / Back-end developer</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background pattern from https://www.toptal.com/designers/subtlepatterns/ CC BY-SA 3.0-->
+    <div class="container-fluid aboutme" id="about">
+        <div class="row">
+            <div class="col-xs-12 col-md-offset-2 col-md-8 text-header">
+                <h1>About Me</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-md-offset-2 col-md-4 about-box shadowbox">
+                This is a bunch of text about me. This is a bunch of text about me<br> This is a bunch of text about me. This is a bunch of text about me<br> This is a bunch of text about me. This is a bunch of text about me<br> This is a bunch of text about me. This is a bunch of text about me<br> This is a bunch of text about me. This is a bunch of text about me<br> This is a bunch of text about me. This is a bunch of text about me<br> This is a bunch of text about me. This is a bunch of text about me<br> This is a bunch of text about me. This is a bunch of text about me<br> This is a bunch of text about me. This is a bunch of text about me<br> This is a bunch of text about me. This is a bunch of text about me<br><br>
+                <b>Technologies:</b> HTML5, CSS3, Bootstrap, Javascript, AngularJS, c#, ASP.net, Microsoft SQL Server, PHP, MySQLi
+            </div>
+            <div class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-4">
+                <img src="images/andrew.jpg" class="wideimage shadowbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid work" id="work">
+        <div class="row">
+            <div class="col-xs-12 col-md-offset-2 col-md-8 text-header">
+                <h1>Work Examples</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 ">
+                <div class="col-xs-12 col-sm-6 col-lg-4 work-box ">
+                    <div class="work-example shadowbox">
+                        <h3>Example 1</h3>
+                        <br>
+                        <a href="example1.html"><img src="images/example1.png" class="wideimage"></a>
+                        <br><br> Text about example 1. Text about example 1. Text about example 1. Text about example 1. Text about example 1. Text about example 1. Text about example 1. Text about example 1. Text about example 1.<br><br> Technology: HTML5, CSS3, PHP, MySQLi
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 work-box">
+                    <div class="work-example shadowbox">
+                        <h3>Example 2</h3>
+                        <br>
+                        <a href="example2.html"><img src="images/example2.png" class="wideimage"></a>
+                        <br><br> Text about example 2. Text about example 2. Text about example 2. Text about example 2. Text about example 2. Text about example 2. Text about example 2. Text about example 2. Text about example 2. <br><br> Technology: HTML5, CSS3, PHP, MySQLi
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 work-box">
+                    <div class="work-example shadowbox">
+                        <h3>Example 3</h3>
+                        <br>
+                        <a href="example3.html"><img src="images/example3.png" class="wideimage"></a>
+                        <br><br> Text about example 3. Text about example 3. Text about example 3. Text about example 3. Text about example 3. Text about example 3. Text about example 3. Text about example 3. Text about example 3.<br><br> Technology: HTML5, CSS3, PHP, MySQLi
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 ">
+                <div class="col-xs-12 col-sm-6 col-lg-4 work-box ">
+                    <div class="work-example shadowbox">
+                        <h3>Example 2</h3>
+                        <br>
+                        <a href="example2.html"><img src="images/example2.png" class="wideimage"></a>
+                        <br><br> Text about example 2. Text about example 2. Text about example 2. Text about example 2. Text about example 2. Text about example 2. Text about example 2. Text about example 2. Text about example 2. <br><br> Technology: HTML5, CSS3, PHP, MySQLi
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 work-box">
+                    <div class="work-example shadowbox">
+                        <h3>Example 3</h3>
+                        <br>
+                        <a href="example3.html"><img src="images/example3.png" class="wideimage"></a>
+                        <br><br> Text about example 3. Text about example 3. Text about example 3. Text about example 3. Text about example 3. Text about example 3. Text about example 3. Text about example 3. Text about example 3.<br><br> Technology: HTML5, CSS3, PHP, MySQLi
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 work-box">
+                    <div class="work-example shadowbox">
+                        <h3>Example 1</h3>
+                        <br>
+                        <a href="example1.html"><img src="images/example1.png" class="wideimage"></a>
+                        <br><br> Text about example 1. Text about example 1. Text about example 1. Text about example 1. Text about example 1. Text about example 1. Text about example 1. Text about example 1. Text about example 1.<br><br> Technology: HTML5, CSS3, PHP, MySQLi
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
