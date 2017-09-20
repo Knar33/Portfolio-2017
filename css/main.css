@@ -84,7 +84,7 @@ body {
   padding: 1em;
   border: 1px solid #999999;
   border-radius: 5px;
-  background-color: #888888;
+  background-color: #999999;
   color: #111111;
   text-align: center;
 }
@@ -105,4 +105,8 @@ body {
   .splash {
     height: 100%;
   }
+}
+a {
+  color: #285b86;
+  text-decoration: underline;
 }
