@@ -116,5 +116,9 @@ body {
   }
 }
 a {
-  color: #285b86;
+  color: #278adb;
+}
+
+.work-example a {
+  color: #195281;
 }
