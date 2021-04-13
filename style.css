@@ -3,20 +3,16 @@
     padding: 0;
 }
 
-html, body {
-    height: 100%;
-}
-
 .knar {
     background-image: url("knar.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; 
-    height: 100%;
+    height: 100vh;
 }
 
 .content {
     background-color: #111111;
     border-top: 10px solid #666666;
-    height: 100%;
+    height: 100vh;
 }
