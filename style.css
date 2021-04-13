@@ -8,11 +8,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; 
+    border-bottom: 3px solid #555555;
     height: 100vh;
 }
 
 .content {
     background-color: #111111;
-    border-top: 10px solid #666666;
+    border-top: 5px solid #666666;
     height: 100vh;
 }
