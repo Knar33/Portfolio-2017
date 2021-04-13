@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-.Knar {
+html, body {
+    height: 100%;
+}
+
+.knar {
     background-image: url("knar.png");
     background-repeat: no-repeat;
     background-size: contain;
