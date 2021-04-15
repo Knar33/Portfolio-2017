@@ -15,6 +15,7 @@
 .content {
     background-color: #111111;
     border-top: 5px solid #666666;
+    width: 100%;
 }
 
 .grid {
